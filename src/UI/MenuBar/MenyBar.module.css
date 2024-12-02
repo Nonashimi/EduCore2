@@ -1,0 +1,61 @@
+.MenuBar{
+    width: 12%;
+    z-index: 5;
+    height: 100vh;
+    background-color: #2257BF;
+    border-radius: 0 50px 50px 0;
+    position: fixed;
+    transition: all .3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+    0 1px 3px rgba(0, 0, 0, 0.06); 
+} 
+
+.MenuBar_hidden{
+    width: 12%;
+    overflow: hidden;
+}
+
+.move{
+    transform: translateX(-300px);
+}
+
+.MenuBar_inner{
+    width: 80%;
+    margin: 70px auto;
+}
+
+.hide{
+    transition: all .3s;
+    cursor: pointer;
+}
+.hide:hover{
+    transform: translateX(-10px);
+}
+.section_list{
+    margin-top: 100px;
+    display: grid;
+    height: 40vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.section_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    height: 100%;
+    cursor: pointer;
+}
+.section_text{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.isActive::before{
+    width: 5px;
+    height: 40px;
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    left: 10px ;
+}

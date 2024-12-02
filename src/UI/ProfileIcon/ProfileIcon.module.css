@@ -1,0 +1,68 @@
+.profileIcon{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.profile_img img{
+    width: 50px;
+    cursor: pointer;
+}
+.notification_img{
+    width: 25px;
+    cursor: pointer;
+}
+.notification{
+    position: relative;
+    padding: 10px;
+}
+.notification_number{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 13px;
+    color: #2257BF;
+    font-weight: 600;
+}
+
+.notification:hover .notif_messages{
+    display: block;
+}
+
+.notif_messages{
+    position: absolute;
+    top: 100%;
+    left: -90px;
+    background-color: #2257BF;
+    color: #fff;
+    width: 200px;
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 20px;
+    display: none;
+    cursor: pointer;
+    max-height: 180px;
+    overflow-y: scroll;
+    scrollbar-width: none; 
+}
+.notif_messages::-webkit-scrollbar {
+    opacity: 0; 
+  }
+.notif_messages div{
+    border-bottom: 1px solid #083EA6;
+    padding: 5px 0;
+}
+.notif_messages div:last-child{
+    border-bottom: none;
+}
+
+.message_text{
+    display: -webkit-box;         
+    -webkit-box-orient: vertical; 
+    overflow: hidden;             
+    text-overflow: ellipsis;      
+    -webkit-line-clamp: 2;        
+    line-height: 1.5;             
+    max-height: calc(1.5em * 2); 
+}

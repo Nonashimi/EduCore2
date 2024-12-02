@@ -1,0 +1,35 @@
+
+
+.message{
+    font-size: 13px;
+  }
+
+  .title{
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  /* buttons */
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .forgot_btn{
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .forgot_btn:hover{
+    color:rgb(59, 175, 247);
+  }
+
+  .sign_in_active{
+    transform: translateX(100%);
+  }
+  .sign_in{
+    z-index: 2;
+  }

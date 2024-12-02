@@ -1,0 +1,110 @@
+.profile_inner{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 150px 0 100px;
+}
+.profile_main{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile_main img{
+    width: 150px;
+    height: 160px;
+}
+
+.profile_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto; 
+    gap: 40px; 
+}
+
+.last{
+    grid-column: 1 / span 2; 
+    grid-row: 2;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+
+/* profile_tasks */
+
+.upcoming_tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.upcoming_task{
+    color: #fff;
+    background-color: #2257BF;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+    0 1px 3px rgba(0, 0, 0, 0.06); 
+}
+.task_name{
+    font-weight: 600;
+}
+
+/* course recent card */
+.recent_courses{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.course_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f9; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 
+    0 1px 3px rgba(0, 0, 0, 0.06);   }
+  
+  .course_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+  }
+  
+  .course_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .course_header h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .coursea_header p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .course_details {
+    display: flex;
+    gap: 20px;
+    color: #333;
+  }
+  
+  .course_details span  {
+    font-weight: 600;
+  }
+  
+  
+  .course_status {
+    margin-left: 20px;
+  }
+  

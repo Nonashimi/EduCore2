@@ -1,0 +1,17 @@
+
+.nav{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.nav_li{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.nav_li_active{
+    border: 1px solid #757575;
+}

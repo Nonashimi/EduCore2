@@ -1,0 +1,29 @@
+.footer_inner{
+    width: 1400px;
+    margin: 0 auto;
+    padding:100px 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: #2257BF;
+
+}
+.footer_text{
+    width: 30%;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer_info{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+.footer_city{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}

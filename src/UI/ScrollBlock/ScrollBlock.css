@@ -1,0 +1,81 @@
+.toggle_block{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    transition: all .6s ease-in-out;
+    overflow: hidden;
+    z-index: 10;
+    border-radius: 150px 0 0 100px;
+}
+.toggle_block_active{
+    transform: translateX(-100%);
+    border-radius: 0 150px 100px 0;
+}
+.toggle{
+    position: relative;
+    height: 100%;
+    background: linear-gradient(to right, #2257bf, #174196);
+    width: 200%;
+    transition: all .6s ease-in-out;
+}
+.toggle_active{
+    transform: translateX(0);
+}
+.toggle_panel{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 500px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    transition: all .6s ease-in-out;
+}
+.toggle_left{
+    transform: translateX(-200%);
+    transition: all .6s ease-in-out;
+    z-index: 10;
+}
+.toggle_left_active{
+    transform: translateX(0);
+}
+.toggle_right{
+    transform: translateX(0);
+}
+.toggle_right_active{
+    transform: translateX(200%);
+}
+
+/* start data */
+
+.start_message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #fff;
+    padding: 0 30px;
+}
+.start_title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.start_text{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sign_button{
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 17px;
+    cursor: pointer;
+}

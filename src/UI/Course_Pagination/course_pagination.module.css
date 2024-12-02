@@ -1,0 +1,26 @@
+.course_pag_prev{
+    transform: rotateY(180deg);
+}
+.courses_pagination{
+    display: flex;
+}
+.course_pagination_numbers{
+    display: flex;
+    align-items: center;
+}
+.course_pagination_number{
+    padding: 10px;
+    color: #C4C4C4;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+.course_pagination_number_active{
+    color: #2257BF;
+}
+.course_pag_line{
+    cursor: pointer;
+}
+.notActive{
+    pointer-events: none;
+}

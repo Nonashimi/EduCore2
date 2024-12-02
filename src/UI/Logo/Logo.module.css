@@ -1,0 +1,13 @@
+.footer_logo{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+.footer_logo div{
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+}
+.footer_logo img{
+    width: 40px;
+}

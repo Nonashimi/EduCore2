@@ -1,0 +1,50 @@
+.course_content {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .course_content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .modules_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .module {
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .module h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .module ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .module li {
+    margin-bottom: 8px;
+  }
+  
+  .module li a {
+    color: #555;
+
+    text-decoration: none;
+  }
+  
+  .module li a:hover {
+    text-decoration: underline;
+  }
+  

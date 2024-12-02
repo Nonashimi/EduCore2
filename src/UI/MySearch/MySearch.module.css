@@ -1,0 +1,22 @@
+.mySearch{
+    width: 30%;
+    display: flex;
+    position: relative;
+}
+.mySearch input{
+    width: 100%;
+    padding: 12px 60px 12px 15px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #F0EEF1;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+}
+.mySearch img{
+    position: absolute;
+    right: 20px;
+    width: 30px;
+    top: 0;
+}
+

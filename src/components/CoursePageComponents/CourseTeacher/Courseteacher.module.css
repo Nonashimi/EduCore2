@@ -1,0 +1,23 @@
+.profile_main{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile_main img{
+    width: 150px;
+    height: 160px;
+}
+
+.profile_info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.teacher_texts{
+    display: flex;
+    flex-direction: column;
+    gap: 
+    30px;
+}
